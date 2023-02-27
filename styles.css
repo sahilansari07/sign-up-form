@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: auto;
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 35%, #40039a 65%, #050000 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+.verticalsec {
+    margin: 0;
+    padding: 0;
+    grid-row-start: span 3;
+    width: 500px;
+}
+
+
+.horizontal1 {
+    background-color: black;
+    grid-column-start: span 2;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    height: 33.33vh;
+    color: ivory;
+}
+
+
+.horizontal2 {
+    color: ivory;
+    background-color: black;
+    grid-column-start: span 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 33.33vh;
+    padding-left: 70px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.horizontal3 {
+    background-color: black;
+    grid-column-start: span 2;
+    padding-bottom: 150px;
+    padding-left: 70px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    color: ivory;
+}
+
+.createbutton {
+    color: ivory;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25%;
+    font-size: larger;
+    font-weight: bolder;
+    border-style: bolder;
+    border-color: #40039a;
+    background-color: #000000;
+}
+
+
+.inner1,
+.inner2,
+.inner3 {
+    display: grid;
+}
+
+input {
+    background-color: #000000;
+}
